@@ -1,0 +1,27 @@
+/****************************** 
+ *** 大枠
+ ******************************/
+.wrapper{
+  /* 大きさ・色 */
+  /* 配置 */
+  display: flex;
+  /* 文字 */
+}
+
+.side-box {
+  /* 大きさ・色 */
+  height: 100vh;
+  width: 300px;
+  background-color: #253141;
+  /* 配置 */
+  /* 文字 */
+}
+
+.main-box {
+  /* 大きさ・色 */
+  height: 100vh;
+  width: calc(100vw - 300px);
+  background-color: #ffffff;
+  /* 配置 */
+  /* 文字 */
+}
