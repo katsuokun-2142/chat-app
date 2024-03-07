@@ -26,7 +26,45 @@
   background-color: #253141;
   /* 配置 */
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   /* 文字 */
+}
+
+.side-user {
+  /* 大きさ・色 */
+  /* 配置 */
+  display: flex;
+  align-items: center;
+  /* 文字 */
+}
+.user a{
+  /* 大きさ・色 */
+  /* 配置 */
+  /* 文字 */
+  color: #fafafa;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.side-createchat {
+  /* 大きさ・色 */
+  /* 配置 */
+  display: flex;
+  align-items: center;
+  /* 文字 */
+}
+
+.create-chat a{
+  /* 大きさ・色 */
+  border: 1px solid lightblue;
+  /* 配置 */
+  padding: 14px;
+  /* 文字 */
+  color: deepskyblue;
+  font-size: 10px;
+  text-decoration: none;
 }
 
 .side-chatitle {
@@ -35,7 +73,23 @@
   background-color: #2F3E51;
   /* 配置 */
   padding: 0 20px;
+  overflow: scroll;
   /* 文字 */
+}
+
+.side-titlecontent {
+  /* 大きさ・色 */
+  /* 配置 */
+  padding: 20px 20px 40px;
+  /* 文字 */
+}
+
+.side-titlecontent a{
+  /* 大きさ・色 */
+  /* 配置 */
+  /* 文字 */
+  text-decoration: none;
+  color: white;
 }
 
 /****************************** 
