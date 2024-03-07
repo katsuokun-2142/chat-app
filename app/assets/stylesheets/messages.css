@@ -8,6 +8,9 @@
   /* 文字 */
 }
 
+/****************************** 
+ *** サイド
+ ******************************/
 .side-box {
   /* 大きさ・色 */
   height: 100vh;
@@ -17,11 +20,60 @@
   /* 文字 */
 }
 
+.side-nav {
+  /* 大きさ・色 */
+  height: 100px;
+  background-color: #253141;
+  /* 配置 */
+  padding: 0 20px;
+  /* 文字 */
+}
+
+.side-chatitle {
+  /* 大きさ・色 */
+  height: calc(100vh - 100px);
+  background-color: #2F3E51;
+  /* 配置 */
+  padding: 0 20px;
+  /* 文字 */
+}
+
+/****************************** 
+ *** メイン
+ ******************************/
+
 .main-box {
   /* 大きさ・色 */
   height: 100vh;
   width: calc(100vw - 300px);
   background-color: #ffffff;
   /* 配置 */
+  /* 文字 */
+}
+
+.main-topbar {
+  /* 大きさ・色 */
+  height: 100px;
+  background-color: #ffffff;
+  /* 配置 */
+  padding: 0 40px;
+  /* 文字 */
+}
+
+.main-chatcontents {
+  /* 大きさ・色 */
+  height: calc(100vh - 100px - 90px);
+  background-color: #fafafa;
+  /* 配置 */
+  padding: 46px 40px 0 40px;
+  /* 文字 */
+}
+
+.main-bottombar {
+  /* 大きさ・色 */
+  height: 90px;
+  background-color: #dddddd;
+  /* 配置 */
+  padding: 20px 40px;
   /* 文字 */
 }
