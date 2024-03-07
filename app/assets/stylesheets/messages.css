@@ -112,6 +112,36 @@
   /* 配置 */
   padding: 0 40px;
   /* 文字 */
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+
+}
+
+.main-chatitle {
+  /* 大きさ・色 */
+  /* 配置 */
+  margin-top: 36px;
+  /* 文字 */
+  color: #333;
+  font-size: 24px;
+}
+
+.main-endchat {
+  /* 大きさ・色 */
+  /* 配置 */
+  margin-top: 40px;
+  /* 文字 */
+}
+
+.main-endchat a{
+  /* 大きさ・色 */
+  /* 配置 */
+  padding: 20px;
+  border: 1px solid darkred;
+  /* 文字 */
+  color: darkred;
+  text-decoration: none;
 }
 
 .main-chatcontents {
@@ -120,7 +150,49 @@
   background-color: #fafafa;
   /* 配置 */
   padding: 46px 40px 0 40px;
+  overflow: scroll;
   /* 文字 */
+}
+
+.chat-content {
+  /* 大きさ・色 */
+  /* 配置 */
+  margin-bottom: 40px;
+  /* 文字 */
+}
+
+.content-header {
+  /* 大きさ・色 */
+  /* 配置 */
+  margin-top: 10px;
+  display: flex;
+  /* 文字 */
+}
+
+.content-user {
+  /* 大きさ・色 */
+  /* 配置 */
+  /* 文字 */
+  font-size: 16px;
+  color: #434a54;
+}
+
+.content-dt {
+  /* 大きさ・色 */
+  /* 配置 */
+  margin-left: 10px;
+  /* 文字 */
+  font-size: 12px;
+  color: #999;
+}
+
+.content-message {
+  /* 大きさ・色 */
+  /* 配置 */
+  margin-top: 10px;
+  /* 文字 */
+  font-size: 14px;
+  color: #434a54;
 }
 
 .main-bottombar {
@@ -129,5 +201,60 @@
   background-color: #dddddd;
   /* 配置 */
   padding: 20px 40px;
+  display: flex;
   /* 文字 */
+}
+
+.message-form {
+  /* 大きさ・色 */
+  /* 配置 */
+  display: flex;
+  /* 文字 */
+}
+
+.message-box {
+  /* 大きさ・色 */
+  width: 100%;
+  background-color: white;
+  /* 配置 */
+  display: flex;
+  /* 文字 */
+}
+
+.message {
+  /* 大きさ・色 */
+  height: 50px;
+  width: 100%;
+  /* background-color: white; */
+  border: none;
+  /* 配置 */
+  padding-left: 10px;
+  /* 文字 */
+}
+
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.send {
+  /* 大きさ・色 */
+  height: 50px;
+  background-color: #38aef0;
+  border: none;
+  /* 配置 */
+  margin-left: 15px;
+  padding: 0 20px;
+  /* 文字 */
+  font-size: 16px;
+  color: white;
 }
