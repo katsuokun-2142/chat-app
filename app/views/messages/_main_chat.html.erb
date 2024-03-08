@@ -8,7 +8,8 @@
 </div>
 
 <div class="main-chatcontents">
-  <div class="chat-content">
+  <%= render partial: 'message', collection: @messages %>
+  <%# <div class="chat-content">
     <div class="content-header">
       <div class="content-user">Tom2$</div>
       <div class="content-dt">2020/03/31(wed) 12:00:00</div>
@@ -21,7 +22,7 @@
       <div class="content-dt">2024/03/31(wed) 12:00:00</div>
     </div>
     <div class="content-message">お久しぶりです</div>
-  </div>
+  </div> %>
 </div>
 
 <div class="main-bottombar">
