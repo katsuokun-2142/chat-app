@@ -15,7 +15,7 @@
 <div class="side-chatitle">
   <% current_user.rooms.each do |room| %>
     <div class="side-titlecontent">
-      <%= link_to room.name, "#" %>
+      <%= link_to room.name, room_messages_path(room) %>
       <%# <a href="#">techroom1</a> %>
     </div>
   <% end %>

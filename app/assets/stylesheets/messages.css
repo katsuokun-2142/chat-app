@@ -195,7 +195,7 @@
   color: #434a54;
 }
 
-.main-bottombar {
+.main-bottombar .form{
   /* 大きさ・色 */
   height: 90px;
   background-color: #dddddd;
